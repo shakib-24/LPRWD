@@ -98,10 +98,10 @@ margin-bottom: 80px;
  /* works  */
  #works ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     flex-wrap: wrap;
     margin-bottom: 50px;
- }
+ } 
  #works ul li{
     width: 31%;
     margin-bottom: 23px;
@@ -113,7 +113,7 @@ margin-bottom: 80px;
     transition: all 0.3s;
  }
  #works ul li img:hover {
-    transform: scale(1.2,1.2);
+    transform: scale(1.2, 1.2);
     opacity: 0.7;
     
  }
@@ -194,13 +194,16 @@ margin-bottom: 80px;
         margin-top: 15px;
     }
     /* works  */
-    #works ul{
-        flex-direction: column;
-    }
-    #works ul li{
+
+     /* #works ul{ 
+         flex-direction: column; 
+    } 
+     #works ul li{ 
         width: 100%;
-    }
+     }  */
+
  /* news */
+
  #news dl{
     flex-direction: column;
  }
